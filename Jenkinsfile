@@ -1,8 +1,8 @@
 pipeline {
-    agent agent1
+    agent { label 'agent1' }
     
     tools {
-        maven 'maven3.6'
+        maven 'mvn3.6'
         jdk 'jdk17'
     }
 
